@@ -42,4 +42,5 @@ train['text_word_count'] = train['text_clean'].apply(lambda x: len(str(x).split(
 
 ### STEP 2: Plotting tweet length for each tweet type
  
+ ![alt text](https://github.com/Olayile/GBV_tweet_analysis/blob/main/newplot.png)
 
