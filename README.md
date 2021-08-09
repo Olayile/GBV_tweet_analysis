@@ -3,8 +3,8 @@ Can you classify tweets about GBV without using keywords?
 
 ---
 
-```R
-# Trigger warning: The data in this competition can contain graphic descriptions of or extensive discussion of abuse, especially sexual abuse or torture.
+```Tex
+Trigger warning: The data in this competition can contain graphic descriptions of or extensive discussion of abuse, especially sexual abuse or torture.
 ```
 
 Submitted to :  Gender-Based Violence Tweet Classification by #ZindiWeekendz
@@ -43,4 +43,21 @@ train['text_word_count'] = train['text_clean'].apply(lambda x: len(str(x).split(
 ### STEP 2: Plotting tweet length for each tweet type
  
  ![alt text](https://github.com/Olayile/GBV_tweet_analysis/blob/main/newplot.png)
+ 
+ 
+ ### STEP 3: TOP 20 MOST USED WORDS
+ 
+ ![alt text](https://github.com/Olayile/GBV_tweet_analysis/blob/main/UNI.001.jpeg)
+ 
+ SEE FULL NOTEBOOK FOR TOP BIGRAMS AND TRIGRAMS
+ 
+ 
+ ### STEP 4: WORD CLOUD 
+  
+ ![alt text](https://github.com/Olayile/GBV_tweet_analysis/blob/main/word_cloud.png)
+ 
 
+ 
+ ### STEP 5: Machine learning algorithm classification of tweets using BERT
+ 
+ REFER to BERT notebook
