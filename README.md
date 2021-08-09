@@ -20,7 +20,7 @@ From analysis [notebook](https://github.com/Olayile/GBV_tweet_analysis/blob/main
 
 ```diff
 @@Tweet types are: sexual_violence,  Physical violence, emotional violence,
-       Harmful_Traditional_practice , economic_violence @@
+       Harmful_Traditional_practice , economic_violence@@
 ```
 
 
