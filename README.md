@@ -10,6 +10,7 @@
 descriptions of or extensive discussion of abuse, especially sexual abuse or torture.
 ```
 
+- The data was collected from Twitter using a python library (twint) by Zindi Ambassador Lawrence Moruye for the AFD Gender-Based Violence Dataset Collection Challenge.
 
 Submitted to :  Gender-Based Violence Tweet Classification by #ZindiWeekendz
 
