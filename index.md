@@ -2,7 +2,7 @@
 
 You can use the [editor on GitHub](https://github.com/Olayile/GBV_tweet_analysis/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Trigger warning: The data in this competition can contain graphic descriptions of or extensive discussion of abuse, especially sexual abuse or torture.
 
 ### Markdown
 
