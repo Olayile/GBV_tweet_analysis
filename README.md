@@ -1,11 +1,14 @@
 # GBV_tweet_analysis
-Can you classify tweets about GBV without using keywords?
 
+```diff
+@@Can you classify tweets about GBV without using keywords?@@
+```
 ---
 
-```Tex
-Trigger warning: The data in this competition can contain graphic descriptions of or extensive discussion of abuse, especially sexual abuse or torture.
+```diff
+- Trigger warning: The data in this competition can contain graphic descriptions of or extensive discussion of abuse, especially sexual abuse or torture.
 ```
+
 
 Submitted to :  Gender-Based Violence Tweet Classification by #ZindiWeekendz
 
@@ -13,8 +16,12 @@ Submitted to :  Gender-Based Violence Tweet Classification by #ZindiWeekendz
 
 ## Exploratory data analysis done on the tweets column
 
-Tweet types are ` sexual_violence,  'Physical_violence', 'emotional_violence',
-       'Harmful_Traditional_practice', 'economic_violence'` 
+
+```diff
+@@Tweet types are ` sexual_violence,  Physical violence, emotional violence,
+       Harmful_Traditional_practice , economic_violence` @@
+```
+
 
 ### STEP 1: Cleaning data + adding columns
 - Make text lowercase, remove text in square brackets,remove links,remove punctuation
