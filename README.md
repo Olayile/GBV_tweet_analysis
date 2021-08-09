@@ -19,10 +19,9 @@ Submitted to :  Gender-Based Violence Tweet Classification by #ZindiWeekendz
 Results from EDA [notebook](https://github.com/Olayile/GBV_tweet_analysis/blob/main/analysis_of_GBV_tweets.ipynb)
 
 
-```diff
-- Tweet types are: sexual_violence,  Physical violence, emotional violence,
-       Harmful_Traditional_practice , economic_violence
-```
+
+Tweet types are: `sexual_violence,  Physical violence, emotional violence,
+       Harmful_Traditional_practice , economic_violence`
 
 
 ### STEP 1: Cleaning data + adding columns
