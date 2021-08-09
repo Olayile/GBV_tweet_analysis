@@ -11,7 +11,12 @@ Submitted to :  Gender-Based Violence Tweet Classification by #ZindiWeekendz
 
 ## Exploratory data analysis done on the tweets column
 
-### STEP 1: Cleaning data
+Tweet types are ` sexual_violence,  'Physical_violence', 'emotional_violence',
+       'Harmful_Traditional_practice', 'economic_violence'` 
+
+### STEP 1: Cleaning data + adding columns
+- Make text lowercase, remove text in square brackets,remove links,remove punctuation
+    and remove words containing numbers.
 ```py
 def clean_text(text):
     '''Make text lowercase, remove text in square brackets,remove links,remove punctuation
@@ -26,4 +31,13 @@ def clean_text(text):
     return text
     
  ```
+ 
+ - Added text length and word count
+ ```py
+train['text_len'] = train['text_clean'].astype(str).apply(len)
+train['text_word_count'] = train['text_clean'].apply(lambda x: len(str(x).split()))
+```
+
+### STEP 2: Plotting tweet length for each tweet type
+ 
 
