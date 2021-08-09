@@ -15,11 +15,12 @@ Submitted to :  Gender-Based Violence Tweet Classification by #ZindiWeekendz
 
 
 ## Exploratory data analysis done on the tweets column
+From analysis [notebook](https://github.com/Olayile/GBV_tweet_analysis/blob/main/analysis_of_GBV_tweets.ipynb)
 
 
 ```diff
-@@Tweet types are ` sexual_violence,  Physical violence, emotional violence,
-       Harmful_Traditional_practice , economic_violence` @@
+@@Tweet types are: sexual_violence,  Physical violence, emotional violence,
+       Harmful_Traditional_practice , economic_violence @@
 ```
 
 
@@ -56,7 +57,7 @@ train['text_word_count'] = train['text_clean'].apply(lambda x: len(str(x).split(
  
  ![alt text](https://github.com/Olayile/GBV_tweet_analysis/blob/main/UNI.001.jpeg)
  
- SEE FULL NOTEBOOK FOR TOP BIGRAMS AND TRIGRAMS
+ SEE FULL [NOTEBOOK](https://github.com/Olayile/GBV_tweet_analysis/blob/main/analysis_of_GBV_tweets.ipynb) FOR TOP BIGRAMS AND TRIGRAMS
  
  
  ### STEP 4: WORD CLOUD 
@@ -67,4 +68,4 @@ train['text_word_count'] = train['text_clean'].apply(lambda x: len(str(x).split(
  
  ### STEP 5: Machine learning algorithm classification of tweets using BERT
  
- REFER to BERT notebook
+ REFER to [BERT notebook](https://github.com/Olayile/GBV_tweet_analysis/blob/main/bert_4.ipynb)
